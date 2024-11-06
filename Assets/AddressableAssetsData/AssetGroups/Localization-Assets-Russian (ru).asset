@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Russian (ru)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Russian (ru)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ccdab0473cccd534698389b9be30b087
+  m_SerializeEntries:
+  - m_GUID: f2828dbe8ad41ce41a8adad2556683f9
+    m_Address: ContinueImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d0a92636392df04c92a226486b32183
+    m_Address: ContinueHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04218ac654c482942b881562d601d7a8
+    m_Address: ContinuePressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8e4b16706e90c4b90073303017fc85
+    m_Address: ContinueDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e83dec65686e34478590af6a099f4a6
+    m_Address: NewGameImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b524279f454ad4143a1bc1c29620b084
+    m_Address: NewGameHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ea14e2e02a6e934d9b2059e42419817
+    m_Address: NewGamePressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f44bfe446dad666418865e8926c4415b
+    m_Address: NewGameDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff757f3d70d022d46846427254436bdc
+    m_Address: OptionsImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f950b4703504e964e886f7ae79836eb7
+    m_Address: OptionsHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10813d51b9817674c85d65a027c56ebb
+    m_Address: OptionsPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 589d021adfe7db24cb4883eb6ca8c288
+    m_Address: OptionsDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 123eea46f50ea344180b48dd62c22708
+    m_Address: ExtraImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ef8fee34eb675478a1168458787a0d
+    m_Address: ExtraHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4090c2a28bacd40409a78f6eb058e29a
+    m_Address: ExtraPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f69e742a738016d42a98209d540f8bc9
+    m_Address: ExtraDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9ab6eddb9b7a3a46932cd4c1444d8ed
+    m_Address: QuitImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bba577553e6d26e43b3a31417a2fc1d3
+    m_Address: QuitHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f2538e762a5ee4429189cc2115aa349
+    m_Address: QuitPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd2360798b0bafe43b174885420f97e9
+    m_Address: QuitDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bda2c687af76614085e6c521399d519
+    m_Address: GameplayHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdd6274226eabb245a1741ae3624c59e
+    m_Address: GameplayPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be1a43d5741bf324d9017fa41a0cf134
+    m_Address: GameplayDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee6a892902cf967419d55d1505336851
+    m_Address: LanguageImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcbc8bc6148e6794b8cc1d4606996e3e
+    m_Address: LanguageHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6288aa8c94ab8ff45ba07081e91be078
+    m_Address: LanguagePressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e5d4b3bbf1eb3d479efb11099583c83
+    m_Address: LanguageDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8c530a2608b5f84ba2866386ce5155e
+    m_Address: GameplayImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 866739ac2201a4f4dbb46e568871de14
+    m_Address: SoundsImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 591851d8277a5604aa888bc690e94564
+    m_Address: SoundsHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9bdd8f6276c81a4d9aa481db4b627c5
+    m_Address: SoundsPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38824cdb45d287647864eb918d2074b4
+    m_Address: SoundsDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7b8cc2e716736a47a2b7533b0ddd41b
+    m_Address: ControllerImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1257ebdc2feaaff439fa6abfdb40dbf7
+    m_Address: ControllerHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b0e18fdeb10a84f840255cad40655b
+    m_Address: ControllerPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a17c430c765e3e4c88ec4ff20e65169
+    m_Address: ControllerDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 874c28c73ac6e5a42bb52b8e3b4f5619
+    m_Address: BackImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71333b66db7ea8d4a9e451f311596c99
+    m_Address: BackHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c5c8361f0a500e4ead79210d3f81121
+    m_Address: BackPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03ed634f869e15b46af375afb6f8097b
+    m_Address: BackDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c8dcb690dbeda4d8e53bd5179828be
+    m_Address: EnglishImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddf32a7c5548902469b73f30d8cde68d
+    m_Address: EnglishHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 075f6d357c5a7094392eb4a71cb61b5e
+    m_Address: EnglishPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac7d11ad8736f354b8da65da54b92e2e
+    m_Address: EnglishDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d9adbb51d37fbc4695ebfad5722d2e1
+    m_Address: RussianImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85c8442673823dc40bdce199809cd04f
+    m_Address: RussianHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5a95b2c8e261db41a698c276bf116dc
+    m_Address: RussianPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 438ccf281ef05d24c8be6ca4667a12f1
+    m_Address: RussianDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b92ffb9deca25c640868f60da65935a0
+    m_Address: KeyboardImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd4397c589b462c4389554076356a365
+    m_Address: KeyboardHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e97afd52bd25c6545b584016fccb0edb
+    m_Address: KeyboardPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6100e2424442078498fbe7a398ae9544
+    m_Address: KeyboardDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b569dc0d73dae494abdd95dedf8042d8
+    m_Address: GamepadImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d7098e0d0edc6e4a828abb2ce0677be
+    m_Address: GamepadHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea37ff7005bd28147ae150cd915c6a64
+    m_Address: GamepadPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff24be32d4b0fc64391e368d94c6ac34
+    m_Address: GamepadDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dff77b2d8a1815488d8c4324b156596
+    m_Address: ResetImageRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91836d82ec1745c4186b14e64d76eb48
+    m_Address: ResedHighlightedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d636f9c95692944498552559075e37b8
+    m_Address: ResetPressedRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbaeb103fffb96148a75e5ae6db5031a
+    m_Address: ResetDisabledRus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: cdea47bfa1991a94aaece83deed654b4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f24e5720745b01741ac2a9d34f84e779, type: 2}
+    - {fileID: 11400000, guid: 9f77b2e5a5e36394a9af3162d68543b6, type: 2}

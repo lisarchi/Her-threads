@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UIText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UIText
+  m_TableCollectionNameGuidString: afd68bdc0fb27d7429095fbbe5cdd062
+  m_Entries:
+  - m_Id: 16973631488
+    m_Key: Press Any Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452954755072
+    m_Key: Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5169094386323456
+    m_Key: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5169194605023232
+    m_Key: Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5169255246270464
+    m_Key: Interaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5169431247654912
+    m_Key: Using
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5169568283955200
+    m_Key: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18850204911734784
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18850529731219456
+    m_Key: Forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18850739010211840
+    m_Key: Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18850812880293888
+    m_Key: Dow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34461211176538112
+    m_Key: Cat Spawn
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1617692177246978072
+  references:
+    version: 2
+    RefIds:
+    - rid: 1617692177246978072
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711112684076

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6020bb796e18834981175e054a680ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MemoriesBoarder: {fileID: 2362311656255947245, guid: 67d8c0d673e30164ebddc1912f4fdd40, type: 3}
+  - BoarderDestroyer: {fileID: 9152531858498953251, guid: 5287670f3ab85b64daffbc450255c64d, type: 3}
+  - BoarderPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

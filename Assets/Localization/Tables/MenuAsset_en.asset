@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: MenuAsset_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 97e2018bf68040547942fbb581281ce8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6255577910284288
+    m_Localized: 224e89babd710984c948c861e7884cbb[ContinueImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6258170300534784
+    m_Localized: 53e7cf4f665e1c040a286ad4866b9b86[ContinueHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6258324722225152
+    m_Localized: 0827cc484743c684892909e33a8ec7ea[ContinuePressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6258404007153664
+    m_Localized: e89fce90e7d7e744e9265a7075188f5c[ContinueDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6261139494473728
+    m_Localized: a056656bf4680a84fb20504dd3d67a58[NewGameImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6261389642764288
+    m_Localized: b4c6b6fdf1eb20c43bc915e5bb6baa4d[NewGameHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6261486086590464
+    m_Localized: 7de69485194e66241be3f630766f306f[NewGamePressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6261586972184576
+    m_Localized: 9e7bce020ceb8ba42ab973e0fe3e84a8[NewGameDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6262354433347584
+    m_Localized: cdd1712c6627d054ab78fdf4af568880[OptionsImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6262553474043904
+    m_Localized: 1f90ef4abdd836c4db83c188bbb8f000[OptionsHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6262622881386496
+    m_Localized: dd1d99b1ca4ea724ba61cce3ba9b34ec[OptionsPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6262719253909504
+    m_Localized: 5ae4d67d14d5d704da1fcdd6af186e43[OptionsDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6262893850202112
+    m_Localized: 7311b37e70367084583dece8c5ff6202[ExtraImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263047814713344
+    m_Localized: 41e918f0e2514564580c98a60e3cb7d1[ExtraHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263127804284928
+    m_Localized: c001156624ed52a4086fc6e2177af6d7[ExtraPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263208225869824
+    m_Localized: 699f84362ef355f43bd8dde7519fe408[ExtraDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263346667261952
+    m_Localized: 9ba501bd2c4249a4caf53dcbbd3b0c9d[QuitImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263554012680192
+    m_Localized: cb3a91433794244479d9ad27c809bf11[QuitHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263618537852928
+    m_Localized: b73978b091f1e524bbdf776907999b8b[QuitPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6263688263962624
+    m_Localized: 9847d24775262dc49a3ca83e4947af9c[QuitDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6264862975266816
+    m_Localized: b28781ec4fb1eb0488601c5195c7d094[GameplayImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265029321363456
+    m_Localized: ad5118d7d9fd5814cacd003f27e99a1f[GameplayHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265155746074624
+    m_Localized: a9d06921201528c4793a7c706a082aee[GameplayPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265257256620032
+    m_Localized: 9c58b4e15f3f7a94f80cb27064c478db[GameplayDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265386109833216
+    m_Localized: 385447f39171b1e4e9e93d487db5921d[LanguageImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265599616684032
+    m_Localized: 14a710ae1a12bfc45adfc3bada3d99cb[LanguageHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265673977499648
+    m_Localized: dbcb1198888dc3c498a6fde147029414[LanguagePressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265741514182656
+    m_Localized: 520462ea496b37a4f918a465ef5c557f[LanguageDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6267434930868224
+    m_Localized: 14702486d549b9c43938d6c60f14a471[SoundsImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6267655773556736
+    m_Localized: 1c71c8de74d8f5149bcc3bec450c551a[SoundsHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6267723167633408
+    m_Localized: 002b81b76c2466848bebaac71ac758e2[SoundsPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6267806080634880
+    m_Localized: 837642156a274164e93ccc92c3c321c5[SoundsDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268098088079360
+    m_Localized: 18f1a647b1d58f3479b61e6832ce0c75[ControllerImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268306381410304
+    m_Localized: a99a2d1b1d7d53e428aaf3c2784457d1[ControllerHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268393463549952
+    m_Localized: 22b230bd8caea98499bf822b46aafc82[ControllerPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268483284570112
+    m_Localized: 5679524ac4c226d4bbf7aad2e22e280a[ControllerDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268646711431168
+    m_Localized: 12b2435b2b2f003419e2254c85aec07e[BackImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268828131856384
+    m_Localized: e55d96e100a95ef42b792a1b8db63835[BackHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268898596163584
+    m_Localized: 1f577b54985f5034090f60b9aeaa2bb7[BackPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6268967445663744
+    m_Localized: 9bc6bbd474ca82547b515835c8c107d0[BackDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6269760571772928
+    m_Localized: 238d4f424b556354587cf2b746ad9cae[EnglishImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6269922471907328
+    m_Localized: 81b8cc9ada0525740821c24f5e01e266[EnglishHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270007695970304
+    m_Localized: 08c7875c1fcd1124db243c3909cb5cd5[EnglishPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270089048690688
+    m_Localized: 8c91bd738456db748a61cf57378f0d65[EnglishDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270255013105664
+    m_Localized: ec8ab49d5bf64824b9d053a679e08cfd[RussianImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270443148611584
+    m_Localized: 83e122a9f206d45459134853394a7a44[RussianHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270508000940032
+    m_Localized: 053055311346c6444bab6115e447b219[RussianPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270603371024384
+    m_Localized: c3273d6056d63c5428b11e437866e896[RussianDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6539941592240128
+    m_Localized: 2409f16d526129344a604b1bf30f7e4c[KeyboardImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540121372692480
+    m_Localized: e8452d5ab5378634c8e491111ab83cde[KeyboardHighlighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540228751069184
+    m_Localized: f13a7149f40e7ba46936704c0a5e4e02[KeyboardPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540321780731904
+    m_Localized: 2a1b33f47766fdd42bb065417d11ac69[KeyboardDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540637536325632
+    m_Localized: b6a3dc5196746584489a0f1e66231240[GamepadImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540792226451456
+    m_Localized: e1b4989851f080f49bdcb203856650b9[GamepadHighlithed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540867409350656
+    m_Localized: b4ad604de494d66438af02938a5e57ad[GamepadPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6540975672725504
+    m_Localized: fba88048e57940149849b476c2040ef2[GamepadDisabled]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6541384164380672
+    m_Localized: a4cbc55de3aedb246830abbff725b16b[ResetImage]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6541698581991424
+    m_Localized: 026b734c74c56b449928674c4c8698dd[ResetHighLighted]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6541764617113600
+    m_Localized: e06b594443a27cd41b805e3557f14191[ResetPressed]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6541853754462208
+    m_Localized: 077784d7e836b7145b839b95c2cac1f9[ResetDisabled]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
