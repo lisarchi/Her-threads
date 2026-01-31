@@ -5,11 +5,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Sprint sprint;
 
     private Rigidbody _rb;
-    Flip flip;
-    Vector3ZoneSwitch v3Zone;
-    VerticalBalancerSwitch verticalBalancerSwitch;
-    HorizontalBalancerSwitch horizontalBalancerSwitch;
+    private Flip flip;
+    private Vector3ZoneSwitch v3Zone;
+    private VerticalBalancerSwitch verticalBalancerSwitch;
+    private HorizontalBalancerSwitch horizontalBalancerSwitch;
 
+    public Animator playerAnimator;
     private void Awake()
     {
         flip = GetComponent<Flip>();
@@ -25,34 +26,32 @@ public class PlayerController : MonoBehaviour
 
         //если вертикальный балансир отключен, то флип работает (при включении движение только влево-вправо, без поворотов)
 
-        float moveForward = UserInput.instance.MoveInputForward;
-        _rb.AddForce(Vector3.right * moveForward * sprint._girlSpeed, ForceMode.Impulse);
-
-        if (moveForward > 0 && verticalBalancerSwitch._inVerticalBalancer == false)
+        if (verticalBalancerSwitch._inVerticalBalancer == false)
         {
-            flip.FlipDirection("right");
-        }
+            float moveForward = UserInput.instance.MoveInputForward;
+            _rb.AddForce(Vector3.right * moveForward * sprint._girlSpeed, ForceMode.Impulse);
 
-        float moveBack = UserInput.instance.MoveInputBack;
-        _rb.AddForce(Vector3.left * moveBack * sprint._girlSpeed, ForceMode.Impulse);
-
-        if (moveBack > 0 && verticalBalancerSwitch._inVerticalBalancer == false)
-        {
-            flip.FlipDirection("left");
-        }
-
-        if (horizontalBalancerSwitch._inHorizontalBalancer != false)
-        {
-            //если горизонтальный балансир включен, то добавляется метод наклона и при сильном наклоне импульс в сторону наклона
-            print("HorizontalBalancerOn");
-        }
-
-        if (verticalBalancerSwitch._inVerticalBalancer == false && horizontalBalancerSwitch._inHorizontalBalancer == false)
-        {
-            //если отключены балансиры, то автоматический поворот в сторону персонажа при бездействии включен
-            if (moveForward == 0)
+            if (moveForward > 0)
             {
-                transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(transform.localRotation.x, 0.0f, transform.localRotation.z), (flip._rotationSpeed / 5.0f) * Time.fixedDeltaTime);
+                flip.FlipDirection("right");
+            }
+
+            float moveBack = UserInput.instance.MoveInputBack;
+            _rb.AddForce(Vector3.left * moveBack * sprint._girlSpeed, ForceMode.Impulse);
+
+            if (moveBack > 0)
+            {
+                flip.FlipDirection("left");
+            }
+
+            if (horizontalBalancerSwitch._inHorizontalBalancer == false)
+            {
+                v3Zone.inZone = true;
+                //если отключены балансиры, то автоматический поворот в сторону персонажа при бездействии включен
+                if (moveForward == 0)
+                {
+                    transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(transform.localRotation.x, 0.0f, transform.localRotation.z), (flip._rotationSpeed / 5.0f) * Time.fixedDeltaTime);
+                }
             }
         }
 
@@ -75,13 +74,19 @@ public class PlayerController : MonoBehaviour
             {
                 flip.FlipDirection("down");
             }
-            if (verticalBalancerSwitch._inVerticalBalancer == true)
+            if (horizontalBalancerSwitch._inHorizontalBalancer == true)
             {
-                //если вертикальный балансир включен, тодобавляется метод наклона и при сильном наклоне импульс в сторону наклона
-                print("verticalBalancerOn");
+                v3Zone.inZone = false;
             }
-
         }
 
+
+
     }
+
+    private void Update()
+    {
+        playerAnimator.SetBool("hodba", UserInput.instance.MoveInputForward !=0 || UserInput.instance.MoveInputBack != 0 || UserInput.instance.MoveInputUp != 0 || UserInput.instance.MoveInputDown != 0);
+    }
+
 }

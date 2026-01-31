@@ -8,7 +8,11 @@ public class Inventory : MonoBehaviour
     [SerializeField] private GameObject _cellContainer;
     [SerializeField] private GameObject _messageManager;
     [SerializeField] private GameObject _message;
+    [SerializeField] private float _pickupRange = 20;
     [HideInInspector] public List<Item> item;
+    [SerializeField] private LayerMask pickupLayer;
+
+
     public GameObject DataBase;
 
     private void Start()
@@ -28,8 +32,12 @@ public class Inventory : MonoBehaviour
             item.Add(gameObject.AddComponent<Item>());
         }
     }
-
     private void Update()
+    {
+        
+    }
+
+    private void LateUpdate()
     {
         OpenInventory();
 
@@ -39,7 +47,7 @@ public class Inventory : MonoBehaviour
             //Подбор предмета по рейкасту с камеры в коллайдер предмета
             Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 15f))
+            if (Physics.Raycast(ray, out hit, _pickupRange, pickupLayer))
             {
                 if (hit.collider.GetComponent<Item>())
                 {
@@ -48,8 +56,10 @@ public class Inventory : MonoBehaviour
                     AddItem(hit.collider.GetComponent<Item>());
                 }
             }
+
         }
     }
+
 
     private void AddItem (Item currentItem)
     {

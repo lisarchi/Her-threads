@@ -3,7 +3,7 @@ using UnityEngine;
 public class HealthBar : MonoBehaviour
 {
     [SerializeField] internal int _health;
-    public HillItem hillItem; //«адать в инспекторе пр€мую ссылку на хиллку
+    public HillItem[] hillItem; //«адать в инспекторе пр€мую ссылку на хиллку
     private float _timeOfReduce;
     private float _timeOfAdd;
     private float _timeOfDamage;
@@ -56,7 +56,11 @@ public class HealthBar : MonoBehaviour
         }
     internal void HillHp()
     {
-        _health = _health + hillItem._hillScore;
+        foreach (HillItem hill in hillItem)
+        {
+            _health = _health + hill._hillScore;
+        }
+        
     }
     internal void Damage()
     {

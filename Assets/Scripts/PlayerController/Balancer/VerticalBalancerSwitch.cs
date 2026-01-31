@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VerticalBalancerSwitch : MonoBehaviour
 {
-    internal bool _inVerticalBalancer;
+    [SerializeField] internal bool _inVerticalBalancer;
     private void Start()
     {
         _inVerticalBalancer = false;

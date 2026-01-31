@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f4663d28034653459d65c5617544814
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192852
+  packageName: Cinematic Studio Sample
+  packageVersion: 1.2.1
+  assetPath: Assets/Scenes/MICH-L_Profiles/CMvcam1_C_Profile.asset
+  uploadId: 479797

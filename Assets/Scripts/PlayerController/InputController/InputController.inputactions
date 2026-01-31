@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "InputController",
     "maps": [
         {
@@ -9,7 +10,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "f664f8cc-59d3-46e6-a484-9177f29a5d4b",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -18,7 +19,7 @@
                     "name": "Backward",
                     "type": "Value",
                     "id": "54835b65-c680-4707-ad2d-99e2e9edfc79",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -27,7 +28,7 @@
                     "name": "Forward",
                     "type": "Value",
                     "id": "3452a87e-2e46-4ab9-95cb-98ecf4c87ebc",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -45,7 +46,7 @@
                     "name": "Down",
                     "type": "Value",
                     "id": "74ea8b7a-77e3-4023-a846-a0d219de470f",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -54,7 +55,7 @@
                     "name": "Using",
                     "type": "Button",
                     "id": "15d0f306-e039-4dab-900b-7897d3a28e25",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -63,7 +64,7 @@
                     "name": "Interaction",
                     "type": "Button",
                     "id": "1f79840b-e179-4a85-b8d9-ea08ce165373",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -72,7 +73,7 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "58512b71-2f9c-47c2-bd76-b823c2e46f21",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Press(behavior=2)",
                     "initialStateCheck": false
@@ -81,7 +82,7 @@
                     "name": "Hint",
                     "type": "Button",
                     "id": "7e696110-a380-4c10-9456-f9be179da23b",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -162,7 +163,7 @@
                 {
                     "name": "",
                     "id": "acf6ab6e-fbca-4390-8376-002e26386850",
-                    "path": "<Keyboard>/t",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyBoard",
@@ -206,7 +207,7 @@
                 {
                     "name": "",
                     "id": "4d9b6ee9-d258-4eea-bd92-f2b5df1eba80",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/t",
                     "interactions": "Press",
                     "processors": "",
                     "groups": "KeyBoard",
@@ -404,7 +405,7 @@
                 {
                     "name": "",
                     "id": "301349c5-cc86-40fd-a91b-c988f059d501",
-                    "path": "<Keyboard>/g",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyBoard",

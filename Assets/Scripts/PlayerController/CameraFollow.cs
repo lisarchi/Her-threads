@@ -7,6 +7,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float _shakeDuration = 0f;
     [SerializeField] private float _shakeAmount = 0.01f;
     [SerializeField] private float _decreaseFactor = 1.0f;
+	[SerializeField] private float _offset = 8.0f;
 
     private Transform _camTransform;
 	
@@ -29,7 +30,7 @@ public class CameraFollow : MonoBehaviour
 	private void Update()
 	{
 		Vector3 newPosition = _target.position;
-		newPosition.z = -10;
+		newPosition.z = _target.position.z - _offset;
 		transform.position = Vector3.Slerp(transform.position, newPosition, _followSpeed * Time.deltaTime);
 
 		if (_shakeDuration > 0)

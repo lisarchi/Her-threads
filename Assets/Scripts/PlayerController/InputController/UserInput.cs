@@ -1,9 +1,10 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class UserInput : MonoBehaviour
 {
-   public static UserInput instance;
+    public static UserInput instance;
 
     public float MoveInputBack { get; private set; }
     public float MoveInputForward { get; private set; }
@@ -13,6 +14,7 @@ public class UserInput : MonoBehaviour
     public bool SprintInput { get; private set; }
     public bool UsingInput { get; private set; }
     public bool InteractionInput { get; private set; }
+    public bool InteractionReleased { get; private set; }
     public bool HintInput { get; private set; }
     public bool HintPressed { get; private set; }
     public bool MainMenuInput { get; private set; }
@@ -77,7 +79,8 @@ public class UserInput : MonoBehaviour
         JumpTrigerred = _jumpAction.triggered;
         SprintInput = _sprintAction.IsPressed();
         UsingInput = _usingAction.triggered;
-        InteractionInput = _interactionAction.triggered;
+        InteractionInput = _interactionAction.IsPressed();
+        InteractionReleased = _interactionAction.WasReleasedThisFrame();
         HintPressed = _hintAction.WasPressedThisFrame();
         HintInput = _hintAction.IsPressed();
         MainMenuInput = _mainMenuAction.IsPressed();
@@ -85,5 +88,4 @@ public class UserInput : MonoBehaviour
         CatSpawnInput = _catSpawnAction.triggered;
 
     }
-
 }

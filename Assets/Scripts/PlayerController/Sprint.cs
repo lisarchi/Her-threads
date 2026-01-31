@@ -8,6 +8,8 @@ public class Sprint : MonoBehaviour
 
     internal float _girlSpeed;
 
+    public Animator playerAnimator;
+
     void FixedUpdate()
     {
         if (Time.timeScale == 0)
@@ -21,5 +23,10 @@ public class Sprint : MonoBehaviour
         {
             _girlSpeed = _speed;
         }
+    }
+    private void Update()
+    {
+
+        playerAnimator.SetBool("hodbaFast", UserInput.instance.SprintInput);
     }
 }
